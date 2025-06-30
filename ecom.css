@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to right,rgb(204, 204, 231),rgb(174, 130, 174));
+}
+
+.inbox{
+ border-radius: 20px;
+ padding: 30px 40px;
+ background-color: rgb(147, 105, 105);
+ width: 300px;
+ box-shadow: 0 0 10px  rgb(162, 102, 112);
+}
+
+.inbox {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(12, 17, 16);
+    border: 2px black;
+}
+
+
+.inbox [type=text],
+[type=password]
+{
+    width: 100%;
+    padding: 10px; ;
+    margin: 10px 20px;
+    border: 1px rgb(175, 50, 50);
+    border-radius: 5px;
+}
+
